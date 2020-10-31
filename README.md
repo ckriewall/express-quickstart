@@ -2,16 +2,12 @@
 
 ## Background
 
-To provide data-driven content, front-end developers can consume data from existing APIs like [IMDB](https://developer.imdb.com), [Spotify](https://developer.spotify.com/documentation/web-api), and [Twitter](https://developer.twitter.com/en/docs/twitter-api)
-
-OR
-
-... build their own API.
+To provide data-driven content, front-end developers can consume data from existing APIs like [IMDB](https://developer.imdb.com), [Spotify](https://developer.spotify.com/documentation/web-api), and [Twitter](https://developer.twitter.com/en/docs/twitter-api) OR we can build our own API.
 
 The purpose of this project is to demonstrate building a simple API with Express. We expand slightly on the [Hello World project](https://expressjs.com/en/starter/hello-world.html) from the Express docs. When we're done, we'll have a server that responds to 2 HTTP GET requests.
 
 - `localhost:5000/` confirms the server is online
-- `localhost:5000/simpsons` returns a JSON object containing members of Fox's famous family
+- `localhost:5000/simpsons` returns a JSON array containing members of Fox's famous family
 
 ## About ExpressJS
 
@@ -62,7 +58,7 @@ In `package.json`, add `"type": "module",` as shown below:
 {
   "name": "express-quickstart",
   "version": "1.0.0",
-  "description": "speedy-quick express server startup",
+  "description": "",
   "main": "server.js",
   "type": "module",
 ```
