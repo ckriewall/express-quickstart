@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   );
 });
 
-// GET request returns an array of Simpsons family members
+// GET request to /simpsons returns an array of Simpsons family members
 app.get('/simpsons', (req, res) => {
   res.send([
     { first: 'Homer', last: 'Simpson' },
